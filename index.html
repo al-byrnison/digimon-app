@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-banner">
+        <div class="logo"><p>DigimonApp</p></div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section id="search-container" class="search-container">
+          <h2 class="title search-title">Busca tu digimon</h2>
+          <div class="search-bar">
+            <input
+              class="search-input text"
+              id="search-input"
+              type="text"
+              placeholder="Ingresa un nombre o nivel"
+            />
+            <div class="buttons-container">
+              <button id="search-button" class="search-button btn">
+                Buscar
+              </button>
+              <button
+                id="show-all-button"
+                class="show-all-button btn btn-outliner"
+              >
+                Mostrar todos
+              </button>
+            </div>
+          </div>
+        </section>
+        <setion id="find-digimon" class="find"></setion>
+        <section class="all-digimons">
+          <div id="paginator-top" class="paginator"></div>
+          <div id="cards-container" class="cards-container"></div>
+          <div id="paginator-bottom" class="paginator"></div>
+        </section>
+      </article>
+    </main>
+    <footer></footer>
+    <script src="./assets/scripts/index.js"></script>
+  </body>
+</html>
